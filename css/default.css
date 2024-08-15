@@ -1,0 +1,85 @@
+﻿body {
+    font-family: Arial;
+    background: rgb(220, 255, 255)
+}
+
+.header-img {
+    width: 220px;
+    height: 200px;
+}
+
+.header-text {
+    font-size: 56px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.header-subtext {
+    font-size: 20px;
+}
+
+.home-header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.home-text {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.port-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.active-nav {
+    background-color: #3996d9;
+}
+
+nav a:hover:not(.active-nav) {
+    background-color: #111;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    float: left;
+    font-size: 22px;
+}
+
+.portfolio-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .portfolio-table th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 28px;
+    }
+
+    .portfolio-table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .portfolio-table li {
+        text-align: left;
+    }
